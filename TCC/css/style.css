@@ -1,0 +1,115 @@
+body{
+    background: #ffffff;
+    margin: 0;
+}
+
+.cabecalho {
+    background: linear-gradient(-90deg, rgba(5, 5, 250, 0.8), rgba(5, 5, 250, 0.5)), url('Imagens/fundo_cabecalho.jpg.jpg') no-repeat center/cover;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+    height: 200px; /* Ajuste a altura conforme necessário */
+}
+.principal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 50%;
+    width: 110px;
+    align-content: center;
+    position: relative;
+}
+
+.principal h1{
+    color: #000000;
+    position: relative;
+    align-content: center;
+}
+
+.login{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0000ff;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    height: 20px;
+
+}
+
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+.navegacao a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navegacao a:hover{
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	background: #000000;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+/* Estilo geral para a lista de imóveis */
+.produto {
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #007BFF; /* Borda azul mais espessa */
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a imagem do imóvel */
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilo para as descrições */
+.produto p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Destaque para o título */
+.produto p strong {
+    color: #007BFF; /* Cor azul */
+}
+
+/* Estilo para valores */
+.produto p:last-child {
+    font-weight: bold;
+    color: #28A745; /* Cor verde para o valor */
+}

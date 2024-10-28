@@ -1,0 +1,33 @@
+.pesquisa_caixa{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background: #17391c;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pesquisa_texto{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+}
+.pesquisa_botao{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+#lupa{
+    height: 20px;
+    width: 20px;
+}

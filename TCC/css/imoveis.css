@@ -1,0 +1,55 @@
+main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.slider{
+    margin: 0;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.slide_input{
+    display: none;
+}
+
+.carrossel_imagens li{
+    list-style-type: none;
+}
+/* .carrossel_imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+} */
+.navegacao{
+    position: absolute;
+}
+
+.descricao_imoveis p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ button {
+    display: block;
+    background-color: #00dc33;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+main button:hover {
+    background-color: #1c6b2d;
+}
